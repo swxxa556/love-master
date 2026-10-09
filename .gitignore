@@ -1,0 +1,14 @@
+# 密钥绝不进仓库
+.streamlit/secrets.toml
+.env
+
+# 用户对话数据
+history.json
+
+# 打包产物与临时文件
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+*.log
